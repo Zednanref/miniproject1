@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*nav*/
+nav div{
+    background-color: black;
+    font-size: 20px;
+    gap: 50%;
+}
+
+.navbar{
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container-fluid{
+    padding-inline: 15%;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+ul{
+    gap: 25px;
+}
+
+/*content*/
+
+.stores{
+    display: block;
+}
+
+.mall {
+    height: 900px;
+    width: 100%;
+}
+
+.input-group{
+    margin: 5% 15%;
+    width: 30%
+}
+
+.store-row{
+    display: flex;
+    margin: 5% 15%;
+    gap: 60px;
+}
+
+.card{
+    border: 0px;
+}
+
+.card-subtitle{
+    border-bottom: 1px solid black;
+}
+
+.carousel{
+    position: static;
+}
+
+/*footer*/
+
+footer{
+    display: block;
+    width: 100%;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    background-color: black;
+    padding-block: 75px;
+}
+
+.about-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.about-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.service-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.service-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.media-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.media-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.app-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.app-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.sub-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.sub-des{
+    color: white;
+    margin-block: 10px;
+}
